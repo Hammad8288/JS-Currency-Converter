@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5d9f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #a594f9;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  margin: 30px 0 20px 0;
+}
+
+form input {
+  width: 600px;
+}
+
+form input,
+select,
+button {
+  margin-top: 10px;
+  border: none;
+  border: 1px solid #f7ac87;
+  font-size: 20px;
+  height: 3rem;
+  padding-left: 0.5rem;
+  border-radius: 10px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown select {
+  width: 120px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+img {
+  max-width: 3rem;
+}
+
+i {
+  font-size: 2rem;
+}
+
+.msg {
+  font-weight: bold;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  width: 600px;
+  background-color: #6958d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #5139a7;
+}
+
+#from {
+  color: #000000;
+  font-weight: bold;
+}
+
+#to {
+  color: #000000;
+  font-weight: bold;
+}
+
+#amount {
+  color: #000000;
+  font-weight: bold;
+}
