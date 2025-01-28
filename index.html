@@ -18,24 +18,24 @@
       <h1><i>Currency Converter</i></h1>
       <form class="form">
         <div class="amount">
-          <p id="amount">Enter Amount</p>
-          <input type="text" required />
+          <label for="amount">Enter Amount</label>
+          <input id="amount" type="text" required />
         </div>
         <div class="dropdown">
           <div class="from">
-            <p id="from">From</p>
-            <img src="https://flagsapi.com/US/flat/64.png" />
-            <select name="from"></select>
+            <label for="from">From</label>
+            <img src="https://flagsapi.com/US/flat/64.png" alt="United States Flag" />
+            <select id="from" name="from" aria-label="Select From Currency"></select>
           </div>
           <i class="fa-solid fa-arrows-rotate"></i>
           <div class="to">
-            <p id="to">To</p>
-            <img src="https://flagsapi.com/PK/flat/64.png" />
-            <select name="to" ></select>
+            <label for="to">To</label>
+            <img src="https://flagsapi.com/PK/flat/64.png" alt="Pakistan Flag" />
+            <select id="to" name="to" aria-label="Select To Currency"></select>
           </div>
         </div>
         <div class="msg">1 USD = 277 PKR</div>
-        <button>Get Exchange Rate</button>
+        <button type="button">Get Exchange Rate</button>
       </form>
     </div>
     <script src="codes.js"></script>
